@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalesRegistration</title>
+    <link rel="stylesheet" href="../../for css/registration.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div><a href="Dashboard.html" class="sidebarlinks">Dashboard</a></div>
+
+            <div><a href="SalesManagement.html" class="sidebarlinks">Sales Management</a></div>
+
+            <div><a href="SupplierManagement.html" class="sidebarlinks">Supplier Management</a></div>
+
+            <div><a href="StockManegement.html" class="sidebarlinks">Stock Management</a></div>
+
+            <div><a href="TransportManagement.html" class="sidebarlinks">Transport Management</a></div>
+        </div>
+    
+        <form>
+            <section>
+                <div class="content">
+                  
+                  <h1 class="title1">Sales Registration</h1>
+                    <div class="input-content">
+                        <div class="input1">
+                            <label for="saledate">Sale Date</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input2">
+                            <label for="salesperson">Sales Person</label>
+                            <select name="salesperson" id="">
+                                <option value="" disabled selected>Sales Representatives</option>
+                                <option value="1">Sandra Muwanguzi</option>
+                                <option value="2">Mark Kabarole</option>
+                                <option value="3">Prescovia Lemi</option>
+                                <option value="4">John Matu</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+                  <h2 class="title1">Customer Details</h2>
+                    <div class="name">
+                        <div class="phone">
+                        <div class="details">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="Enter full name" required>
+                        </div>
+                        <div class="details">
+                            <label for="phone">Phone Number</label>
+                            <input type="phone" placeholder="Enter Phone Number" required>
+                        </div>
+                        </div>
+
+
+                        <div class="email">
+                           <div class="details"
+                               <label for="email">Email</label>
+                               <input type="email" placeholder="Enter email">
+                            </div>
+                            <div class="details">
+                              <label for="customertype">Customer Type</label>
+                            <select name="customertype" id="">
+                                <option value="" disabled selected>Select customer type</option>
+                                <option value="1">Regular Customer</option>
+                                <option value="2">Occasional Customer</option>
+                                <option value="3">One-time Customer</option>
+                                <option value="4">Plumber</option>
+                                <option value="5">Contractors</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h2 class="title1">Items</h2>
+                    <div class="items">
+                    <div>
+                        <label for="pdtid">Pdt Id</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="quality">Quality</label>
+                        <input type="number">
+                    </div>
+                    <div>
+                        <label for="unitprice">Unit Price</label>
+                        <input type="number">
+                    </div>
+                    </div>
+                    <div class="items">
+                        <div>
+                            <label for="pdtid">Pdt Id</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="quality">Quality</label>
+                            <input type="number">
+                        </div>
+                        <div>
+                            <label for="unitprice">Unit Price</label>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="duttons">
+                       <button class="button">Cancel</button> 
+                       <button class="button2">Submit</button>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 240);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.sidebar{
+    border-right: 1px solid black;
+    width: 20%;
+    padding: 5px;
+}
+.content{
+    flex: 3;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+.sidebarlinks{
+    text-decoration: none;
+    color: blue;
+}
+.title1{
+    text-align: center;
+}
+.input-content{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.input1{
+    text-align: left;
+}
+.input2{
+    text-align: right;
+}
+.name{
+    display: flex;
+    padding: 10px;
+}
+.details{
+  gap: 20px;
+  padding: 10px;
+}
+.items{
+    display: flex;
+    padding: 10px;
+    gap: 20px
+}
+.buttons{
+    display: flex;
+    justify-items: space-between;
+    font-weight: bolder;
+}
+.button{
+    color:rgb(11, 11, 194);
+    background-color: white;
+    border: 1px solid rgb(11, 11, 194);
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+.button2{
+    color: white;
+    background-color: rgb(11, 11, 194);
+    border: 1px solid rgb(11, 11, 194);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
